@@ -1,0 +1,28 @@
+<%-include('../partials/head.ejs')%>
+    <div class="forms-container">
+
+        <h1 class="title-login">Login page</h1>
+
+        <form action="/login" class="form-login" method="post">
+            <div class="input-login">
+                <label for="username">Username:</label>
+                <input type="text" placeholder="Ingrese su usuario" required name="username">
+            </div>
+            <div class="input-login">
+                <label for="password">Password:</label>
+                <input type="text" placeholder="Ingrese su contraseña" required name="password">
+            </div>
+
+            <button type="submit" class="btn-login">Login</button>
+        </form>
+        <div class="list-login">
+            <ul class="list-home"><li>
+                <a href="/">Home</a></li>
+            </ul>
+            <ul class="list-register"><li>
+                <a href="/register">Register</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <%-include('../partials/footer.ejs')%>
