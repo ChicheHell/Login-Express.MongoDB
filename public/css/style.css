@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     background: beige;
     display: flex;
@@ -54,17 +60,17 @@ label{
     background-color: #0060c6;
 }
 
-.list-login{
+.list-login, .list-home, .list-register{
     list-style: none;
     text-align: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.list-login li, .list-register a{
+.list-home li, .list-login li, .list-register li, .list-register a, .list-login a, .list-home a{
 list-style: none;
 }
 
-.list-login li a{
+.list-login li a, .list-register li a, .list-home li a{
     padding: 5px;
 }
