@@ -25,5 +25,5 @@ jobs:
 
       - name: Build and deploy
         run: |
-          node app.js
+          npm run start
 
