@@ -10,7 +10,7 @@ const express = require('express'),
 
 //-----------------------CONECTING DATABASE----------------//
 
-mongoose.connect('mongodb://localhost:27017/Prueba');
+mongoose.connect('mongodb://localhost:27031/Prueba');
 
 //--------MOTOR PLANTILLA
 
