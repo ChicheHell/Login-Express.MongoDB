@@ -23,5 +23,5 @@ jobs:
 
       - name: Build and deploy
         run: |
-          nodemon
+          node app.js
 
